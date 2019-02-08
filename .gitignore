@@ -1,0 +1,5 @@
+__pycache__
+local_settings.py
+*.log
+texture/users.json
+texture/employees.json
