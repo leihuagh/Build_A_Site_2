@@ -61,7 +61,7 @@ python manage.py migrate
 
 ```shell
 python manage.py dumpdata auth.User --format json --indent 4 > texture/users.json
-python manage.py dumpdata employees.Profile --format json --indent 4 > texture/employees.json
+python manage.py dumpdata employees.Profile --format json --indent 4 > texture/profiles.json
 python manage.py dumpdata polls.Question --format json --indent 4 > texture/questions.json
 python manage.py dumpdata polls.Choice --format json --indent 4 > texture/choices.json
 ```
@@ -70,7 +70,7 @@ python manage.py dumpdata polls.Choice --format json --indent 4 > texture/choice
 
 ```shell
 python manage.py loaddata texture/users.json
-python manage.py loaddata texture/employees.json
+python manage.py loaddata texture/profiles.json
 python manage.py loaddata texture/questions.json
 python manage.py loaddata texture/choices.json
 ```
