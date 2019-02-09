@@ -1,0 +1,57 @@
+[
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "created": "2019-02-09T03:27:13.333Z",
+        "updated": "2019-02-09T03:27:13.333Z",
+        "question": 1,
+        "text": "Very positive",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "created": "2019-02-09T03:27:35.603Z",
+        "updated": "2019-02-09T03:27:35.603Z",
+        "question": 1,
+        "text": "Somewhat positive",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+        "created": "2019-02-09T03:27:55.270Z",
+        "updated": "2019-02-09T03:27:55.270Z",
+        "question": 1,
+        "text": "Neutral",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "created": "2019-02-09T03:28:18.703Z",
+        "updated": "2019-02-09T03:28:18.703Z",
+        "question": 1,
+        "text": "Somewhat negative",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "created": "2019-02-09T03:28:35.586Z",
+        "updated": "2019-02-09T03:28:35.586Z",
+        "question": 1,
+        "text": "Very negative",
+        "votes": 0
+    }
+}
+]
