@@ -3,4 +3,9 @@ from polls.models import Question, Choice
 
 
 def index(request):
-    return render(request, 'polls/index.html', {})
+    questions = Question.objects.all()
+    context = {
+        'title': 'polls',
+        'questions': questions
+    }
+    return render(request, 'polls/index.html', context)
