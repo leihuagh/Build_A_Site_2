@@ -3,7 +3,7 @@
 {% if questions %}
     <ul>
     {% for question in questions  %}
-        <li>{{ question }}</li>
+        <li><a href="/polls/{{ question.id }}">{{ question }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
