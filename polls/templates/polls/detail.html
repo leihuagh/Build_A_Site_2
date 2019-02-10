@@ -1,1 +1,8 @@
 <h1>{{ question }}</h1>
+<p>Created by {{ question.created_by.first_name }}</p>
+
+<ul>
+    {% for choice in question.choice_set.all  %}
+    <li>{{ choice }}</li>
+    {% endfor %}
+</ul>
